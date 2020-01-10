@@ -184,3 +184,41 @@ int getLength(int b) {
 
 // -------------------------------------------------------------------------- Q.7 ---------------------------------------------------------------
 
+/*int main(void) {
+	void getPrime(int, int);
+	setvbuf(stdout, NULL, _IONBF, 0);
+	int i, limit, div = 2;
+	printf("Enter a Number : ");
+	scanf("%d", &i);
+	if (i % 2) {
+		limit = (i - 1) / 2;
+	} else {
+		limit = i / 2;
+	}
+	printf("\n Limit : %d\n", limit);
+	printf("Prime Factors are : ");
+	getPrime(i, limit);
+}
+void getPrime(int num, int limit) {
+	if (num < 4) {
+		printf("%d", num);
+	} else {
+		int div = 2;
+		while (div <= limit) {
+			if (!(num % div)) {
+				printf("%d", div);
+				if (num != div)
+					printf(" * ");
+				num = num / div;
+				div = 1;
+			}
+			div++;
+		}
+	}
+}*/
+
+// --------------------------------------------------------------------- Q.8 ----------------------------------------------------------------
+
+int main(void){
+
+}
